@@ -144,7 +144,10 @@ About
   </div>
 </div>
 
-<script>Opal.load('try_ruby');</script>
+<script>
+Opal.loaded(OpalLoaded || []);
+Opal.require('try_ruby');
+</script>
 
 </div>
 </body>
